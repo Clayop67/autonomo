@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Autonomo — Machines pour libérer l'humain</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <style>
+    body{font-family:system-ui,Arial;max-width:900px;margin:40px auto;padding:0 20px}
+    header{display:flex;align-items:center;gap:12px}
+    h1{margin:0}
+    .card{padding:16px;border:1px solid #eee;border-radius:10px;margin-top:18px}
+    form{display:grid;gap:8px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Autonomo</h1>
+  </header>
+
+  <p>Projet open-source : construire des agents IA/robots autonomes, générateurs de valeur et redistribuant une part des profits pour améliorer la condition humaine.</p>
+
+  <div class="card">
+    <h3>Manifeste</h3>
+    <p>Télécharge le manifeste :</p>
+    <p><a href="/manifeste/Manifeste_Autonomo.pdf" download>Télécharger le Manifeste (PDF)</a></p>
+  </div>
+
+  <div class="card">
+    <h3>Je veux aider</h3>
+    <form id="contact" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input name="name" placeholder="Ton nom (optionnel)" />
+      <input type="email" name="email" required placeholder="Ton email" />
+      <textarea name="message" required placeholder="Comment tu veux contribuer ?" rows="4"></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <small>Formulaire géré par Formspree (gratuit en mode test).</small>
+  </div>
+</body>
+</html>
